@@ -1,5 +1,6 @@
 class Config {
 }
+なぜからのクラスを定義して毎度Config.~のように呼び出しているの？（別ファイルからも同じ）
 Config.puyoImgWidth = 40;
 Config.puyoImgHeight = 40;
 Config.fontHeight = 33;
