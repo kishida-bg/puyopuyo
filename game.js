@@ -4,7 +4,6 @@ window.addEventListener("load", () => {
 })
 
 let mode;
-// フレーム？
 let frame;
 let combinationCount = 0;
 
