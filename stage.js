@@ -81,6 +81,7 @@ class Stage {
     let isFalling = false;
     // 下の行から上の行を見ていく
     for (let y = Config.stageRows - 2; y >= 0; y--) {
+//       -2ってなんで？中途半端なところから判定しているような印象を受ける
       const line = this.board[y];
       for (let x = 0; x < line.length; x++) {
         if (!this.board[y][x]) {
@@ -114,6 +115,7 @@ class Stage {
   // 自由落下させる
   static fall() {
     let isFalling = false;
+//     thisで呼び出さなきゃいけない変数を定数化している？
     for (const fallingPuyo of this.fallingPuyoList) {
       if (!fallingPuyo.falling) {
         // すでに自由落下が終わっている
