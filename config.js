@@ -16,3 +16,5 @@ Config.playerMoveFrame = 10;
 Config.playerRotateFrame = 10;
 Config.zenkeshiDuration = 150;; // 全消し時のアニメーション150ms
 Config.gameOverFrame = 3000;  // ゲームオーバー演出のサイクルフレーム
+
+// 完全理解
