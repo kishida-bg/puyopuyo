@@ -8,12 +8,12 @@ let frame;
 let combinationCount = 0;
 
 function initialize() {
-  // initializeメソッドの中でinitialize使えるの？
+  // initializeメソッドの中でinitialize使えるの？　→　それぞれ別ファイルのイニシャライザをまとめて呼び出しているだけ
   PuyoImage.initialize();
   Stage.initialize();
   Player.initialize();
   Score.initialize();
-  // なぜステータスを文字列で管理？
+  // なぜステータスを文字列で管理？→hashの方がいいかもしれないけどそんな負荷かからないし問題ない
   mode = 'start';
   // フレーム初期化とは？
   frame = 0;
