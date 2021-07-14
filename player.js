@@ -40,6 +40,7 @@ class Player {
     });
     document.addEventListener('keyup', (e) => {
       // キーボードが離された場合
+      // keypressイベントが発生すると「文字が入力される」というデフォルトのイベントが発生する。それを無効化するためにpreventDefault()関数を設定している
       switch (e.keyCode) {
         case 37: // 左向きキー
           this.keyStatus.left = false;
