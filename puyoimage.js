@@ -42,3 +42,5 @@ class PuyoImage {
         this.batankyuImage.style.top = y + 'px';
     }
 }
+
+// ほぼ理解
